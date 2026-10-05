@@ -7,10 +7,15 @@ export default function Home() {
       <Text>Home Page</Text>
       <Link href='/about' style={styles.Texts}>About</Link>
       <Link href='/Profile' style={styles.Texts}>Profile</Link>
-      <Link href='/Profile/1' style={styles.Texts}>Profile 1</Link>
+      {/* <Link href='/Profile/1' style={styles.Texts}>Profile 1</Link>
       <Link href='/products' style={styles.Texts}>Products</Link>
 
-      <Link href='/missing-route' style={styles.Texts}>Missing Route</Link>
+      <Link href='/missing-route' style={styles.Texts}>Missing Route</Link> */}
+
+      <Link href='/login' style={styles.Texts}>Login</Link>
+      <Link href='/register' style={styles.Texts}>Register</Link>
+
+      <Link href='/forgot-password' style={styles.Texts}>Forgot Password</Link>
     </View>
   );
 }

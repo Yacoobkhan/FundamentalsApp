@@ -9,7 +9,7 @@ export default function RootLayout() {
         <Text style={styles.headerText}>My Expo App</Text>
       </View>
 
-      <Slot />;
+      <Slot />
 
       <View style={styles.footer}>
         <Text style={styles.footerText}>Code EVolution</Text>
